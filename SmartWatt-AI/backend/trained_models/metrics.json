@@ -1,0 +1,26 @@
+{
+  "model_name": "RandomForestRegressor",
+  "mae": 0.9547,
+  "rmse": 1.164,
+  "r2_score": 0.1642,
+  "training_samples": 3456,
+  "test_samples": 864,
+  "features": [
+    "hour",
+    "day_of_week",
+    "month",
+    "is_weekend",
+    "temperature",
+    "hour_sin",
+    "hour_cos",
+    "month_sin",
+    "month_cos",
+    "lag_1h",
+    "lag_24h",
+    "lag_168h",
+    "rolling_mean_24h",
+    "rolling_std_24h"
+  ],
+  "trained_at": "2026-11-04T14:07:42.537404+00:00",
+  "confidence_method": "Ensemble decision-tree standard error deviation (empirically calculated)"
+}
